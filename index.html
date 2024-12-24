@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container__header">
+            <img src="/image/logo.png">
+            <ul class="header__list">
+                <li class="header__line">Главная</li>
+                <li class="header__line">О Боге</li>
+                <li class="header__line">Представление</li>
+                <li class="header__line">Галлерея</li>
+                <li class="header__line">Интервью</li>
+            </ul>
+            <img src="image/image 1@1x.png" alt="button">
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container container_hero">
+                <img src="image/img.png" alt="Furina" class="hero_img">
+                <div class="hero__info">
+                    <h1 class="hero__text">
+                        Я, Фурина Де Фонтейн
+                    </h1>
+                    <p class="hero__paragraph">
+                        В центре внимания на сцене театра правосудия вплоть до финального занавеса и оваций.
+                        В конце концов все растворятся в воде, и останется только Фурина, плачущая на своём троне...
+                        Только тогда грехи жителей Фонтейна будут смыты.
+                    </p>
+                    <button>Положитесь на меня</button>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container container_about">
+                <h2>
+                    О Боге
+                </h2>
+                <div class="about__info">
+                    <ul class="about__list">
+                        <h3>
+                            Мои характеристики
+                        </h3>
+                        <li class="about__item">
+                            <p class="about__skillname">
+                                Характер
+                            </p>
+                            <div class="full">
+                                <div class="fill">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="about__item">
+                            <p class="about__skillname">
+                                Красота
+                            </p>
+                            <div class="full2">
+                                <div class="fill2">
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="about__item">
+                            <p class="about__skillname">
+                                Непокидающая тоска
+                            </p>
+                            <div class="full3">
+                                <div class="fill3">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <img src="image/img-about.png" class="about__img">
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="container_video">
+            <h2 class="video__title">
+                Представление
+            </h2>
+            <iframe class="video__link" src="https://www.youtube.com/embed/1Ip43DfbkUw?si=rIQ0dxD4rI_kFysd"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container container_gallery">
+                <h2 class="gallery_word">
+                    Галерея
+                </h2>
+                <ul class="gallery__list">
+                    <li class="gallery__item"><a href="image/img1.png" class="lightzoom"><img src="image/img1.png" class="gallery__picture"></a></li>
+                    <li class="gallery__item"><a href="image/img2.png" class="lightzoom"><img src="image/img2.png" class="gallery__picture"></a></li>
+                    <li class="gallery__item"><a href="image/img3.png" class="lightzoom"><img src="image/img3.png" class="gallery__picture"></a></li>
+                    <li class="gallery__item"><a href="image/img4.jpg" class="lightzoom"><img src="image/img4.jpg" class="gallery__picture"></a></li>
+                    <li class="gallery__item"><a href="image/img6.webp" class="lightzoom"><img src="image/img6.webp" class="gallery__picture"></a></li>
+                    <li class="gallery__item"><a href="image/img5.png" class="lightzoom"><img src="image/img5.png" class="gallery__picture"></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container container_footer">
+            <div>
+        <h2 class="footer__title"></h2>  
+        <p>
+            &copy; 2024. Не все права защищены.
+        </p>
+            </div>
+            <div>
+        <a href="" class="footer__link">
+            <img src="image/discord.png" alt="discord">
+        </a>
+        <a href="" class="footer__link">
+            <img src="image/telegram.png" alt="telegram">
+        </a>
+        <a href="" class="footer__link">
+            <img src="image/vk.png" alt="vk">
+        </a>
+        </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, isOverlayClickClosing:true});
+        </script>
+</body>
+
+</html>

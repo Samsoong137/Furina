@@ -1,0 +1,136 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.container__header{
+    display: flex;
+    background-color: #30354C;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+}
+.header__line{
+    margin-right: 50px;
+    color: rgb(248, 249, 254);
+    font-family: Holy Union;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.container_hero{
+    display: flex;
+}
+.hero__info{
+    margin-left: 50px;
+}
+.hero__text{
+    color: rgb(248, 249, 254);
+    font-family: Holy Union;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 66px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+.hero__paragraph{
+    color: rgb(248, 249, 254);
+}
+.about{
+    color:rgb(248, 249, 254) ;
+}
+.container{
+    color: rgb(248, 249, 254);
+}
+.full{
+    background-color:rgb(248, 249, 254) ;
+    width: 300px;
+    height: 5px;
+}
+.fill{
+    background-color:#698ce2;
+    width: 100%;
+    height: 100%;
+}
+.full2{
+    background-color:rgb(248, 249, 254) ;
+    width: 300px;
+    height: 5px;
+}
+.fill2{
+    background-color:#698ce2;
+    width: 100%;
+    height: 100%;
+}
+.full3{
+    background-color:rgb(248, 249, 254) ;
+    width: 300px;
+    height: 5px;
+}
+.fill3{
+    background-color:#698ce2;
+    width: 100%;
+    height: 100%;
+}
+button{
+    background-color: rgb(118, 97, 204);
+}
+body{
+    background-color: rgb(48, 53, 76);
+}
+.video__link{
+    width: 600px;
+    height: 350px;
+}
+.container_video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video__title{
+    color: rgb(248, 249, 254);
+}
+.gallery__picture{
+    width: 100%;
+    height: 100%;
+}
+.gallery__item{
+    width: 350px;
+    height: 250px;
+    margin: 10px ;
+}
+.gallery__list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gallery__word{
+    color: rgb(248, 249, 254);
+    font-family: Holy Union;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;}
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.about__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about__img{
+    width: 600px;
+    height: 600px;
+}
